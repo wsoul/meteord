@@ -11,5 +11,4 @@ RUN bash $METEORD_DIR/lib/install_base.sh
 RUN bash $METEORD_DIR/lib/install_git-crypt.sh
 RUN bash $METEORD_DIR/lib/install_node.sh
 RUN bash $METEORD_DIR/lib/install_meteor.sh
-RUN bash $METEORD_DIR/lib/install_mup.sh
 RUN bash $METEORD_DIR/lib/cleanup.sh
