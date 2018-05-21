@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM ubuntu:bionic
 MAINTAINER Jesse Rosenberger
 
 ENV METEORD_DIR /opt/meteord
