@@ -24,3 +24,6 @@ npm install --global npm@5
 
 npm install --global mup
 npm install --global json
+
+ln -sf /opt/nodejs/bin/mup /usr/bin/mup
+ln -sf /opt/nodejs/bin/json /usr/bin/json
