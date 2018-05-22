@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:xenial
 MAINTAINER Jesse Rosenberger
 
 ENV METEORD_DIR /opt/meteord

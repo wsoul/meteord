@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:xenial
 
 ENV METEORD_DIR /opt/meteord
 COPY scripts $METEORD_DIR
