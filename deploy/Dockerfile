@@ -8,6 +8,7 @@ ENV NODE_VERSION ${NODE_VERSION:-8.11.1}
 ONBUILD ENV NODE_VERSION ${NODE_VERSION:-8.11.1}
 
 RUN bash $METEORD_DIR/lib/install_base.sh
+RUN bash $METEORD_DIR/lib/install_dependencies.sh
 RUN bash $METEORD_DIR/lib/install_git-crypt.sh
 RUN bash $METEORD_DIR/lib/install_node.sh
 RUN bash $METEORD_DIR/lib/install_meteor.sh
